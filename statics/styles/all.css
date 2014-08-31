@@ -1,0 +1,95 @@
+html, body
+{
+	background: #222;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/**************** Header *******************/
+
+header
+{
+	background: #222;
+	border-bottom: 10px solid #F7F8FC;
+}
+header a
+{
+	display: block;
+	padding: 10px;
+	height: 25px;
+	color: #fff;
+}
+header a img
+{
+	height: 100%;
+	width: auto;
+	margin-left: 30px;
+}
+header div.left
+{
+	float: left;
+}
+header div.left span
+{
+	line-height: 10px;
+}
+header div.right
+{
+	float: right;
+}
+header div.right a
+{
+	line-height: 25px;
+}
+
+/**************** Display *******************/
+
+#display
+{
+	margin-top: 10px;
+}
+
+#controls
+{
+	position: absolute;
+	top: 55px;
+	right: 0px;
+}
+
+canvas
+{
+	background: #222;
+}
+
+/***************** About ********************/
+#about
+{
+	position: absolute;
+	background: #222;
+	bottom: 50px;
+	left: 0px;
+	padding: 20px;
+
+	color: #fff;
+	font-size: 2em;
+}
+
+#about .tools
+{
+	font-size: .6em;
+}
+
+#about a
+{
+	color: #F7F8FC;
+}
